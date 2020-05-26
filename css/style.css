@@ -214,8 +214,6 @@ a:hover {
 
 /* ========== gallery ========== */
 .bodyGallery {
-  position: fixed;
-  overflow-x: hidden !important;
 }
 
 .galleryWrapper {
@@ -391,7 +389,7 @@ a:hover {
 
   nav {
     margin-top: 42.5px;
-    margin-right: 8px;
+    margin-right: 5px;
   }
 
   li {
@@ -400,18 +398,15 @@ a:hover {
 
   nav li a{
     font-weight: 100;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   /* =========== media footer ========== */
 
-  .footer{
-    width: 450px;
-  }
-
   .fText{
-    left: 28%;
-    transform: translateX(-28%);
+    left: 23%;
+    transform: translateX(-10%);
+    margin-top: 32.5px;
   }
 
   /* =========== media index ========== */
@@ -426,7 +421,14 @@ a:hover {
 
   .quote{
     margin: auto;
-    width: 320px;
+    width: 310px;
+  }
+
+  .indexButton{
+    width: 120px;
+    height: 33.1px;
+    font-size: 10px;
+    margin-left: 290px;
   }
 
   /* ======== media projects ======== */
@@ -434,6 +436,64 @@ a:hover {
   .contentProjects {
     width: 95%;
     margin-left: 2.5%;
+  }
+
+  .section{
+    height: 430px;
+  }
+
+  .thumbnailProject{
+    height: 362px;
+  }
+
+  .dateWrapper{
+    height: 68px;
+    width: 68px;
+  }
+
+  .dateContainer{
+    padding-left: 16px;
+  }
+
+  .number{
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .month{
+    font-size: 12px;
+    padding-left: 2.5px;
+  }
+
+  .titleProject{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .description{
+    padding-top: 35px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  /* =========== media gallery ========== */
+
+  .galleryWrapper {
+    width: 95%;
+  }
+
+  .galleryImages {
+    margin-bottom: 29.844px;
+  }
+
+  .imgGrid {
+    width: 100%;
+    padding-top: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1.5%;
   }
 
   /* =========== media faq ========== */
