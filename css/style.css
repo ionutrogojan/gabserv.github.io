@@ -404,8 +404,9 @@ a:hover {
   /* =========== media footer ========== */
 
   .fText{
-    left: 23%;
-    transform: translateX(-10%);
+    margin: auto;
+    padding-left: 10px;
+    width: 80%;
     margin-top: 32.5px;
   }
 
