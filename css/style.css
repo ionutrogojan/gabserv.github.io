@@ -9,9 +9,6 @@
   scroll-behavior: smooth;
 }
 
-html{
-}
-
 /* ========== body ========== */
 body {
   margin: 0;
@@ -25,7 +22,6 @@ body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-
 }
 
 /* ========== body end ========== */
@@ -395,11 +391,11 @@ a:hover {
 
   nav {
     margin-top: 42.5px;
-    margin-right: 28px;
+    margin-right: 8px;
   }
 
   li {
-    padding-left: 40px;
+    padding-left: 20px;
   }
 
   nav li a{
@@ -429,8 +425,8 @@ a:hover {
   }
 
   .quote{
-    margin-left: 120px;
-    width: 450px;
+    margin: auto;
+    width: 320px;
   }
 
   /* ======== media projects ======== */
