@@ -131,6 +131,7 @@ a:hover {
 }
 
 .indexButton {
+  cursor: pointer;
   width: 180px;
   height: 33.1px;
   font-family: Montserrat, Roboto, sans-serif;
@@ -158,6 +159,7 @@ a:hover {
   height: 730px;
   background-color: #f8b400;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .thumbnailProject{
@@ -215,6 +217,15 @@ a:hover {
   font-size: 18px;
 }
 
+.linkP{
+  background-color: red;
+  height: 730px;
+  width: 100%;
+  position: absolute;
+  margin-top: -100%;
+  z-index: 1;
+}
+
 .spacer {
   height: 50px;
 }
@@ -235,6 +246,7 @@ a:hover {
 }
 
 .imgGrid {
+  cursor: pointer;
   text-align: center;
   display: inline-block;
   background-color: #f8b400;
@@ -366,6 +378,7 @@ a:hover {
 }
 
 .buttonWrapper {
+  cursor: pointer;
   height: 200px;
   position: relative;
 }
