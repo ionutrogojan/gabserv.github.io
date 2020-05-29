@@ -378,7 +378,6 @@ a:hover {
 }
 
 .buttonWrapper {
-  cursor: pointer;
   height: 200px;
   position: relative;
 }
@@ -391,6 +390,7 @@ a:hover {
 }
 
 .contactButton {
+  cursor: pointer;
   width: 300px;
   height: 50px;
   border: 0;
